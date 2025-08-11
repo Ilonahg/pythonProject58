@@ -1,0 +1,9 @@
+Django>=4.2
+djangorestframework
+# Библиотека для Postgres:
+psycopg[binary]>=3.1  # или psycopg2-binary
+# Celery + Redis
+celery>=5.3
+redis>=5.0
+# Если используешь планировщик в БД:
+django-celery-beat>=2.6
